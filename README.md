@@ -34,7 +34,7 @@ Get familiar with the **rnsetlife** folder structure
     |-- /styles/                    # All stylesheet constants 
     |-- /templates           # Folder holding template files for rnsetlife command line tools
 
-
+```
 
 ##Usage
 
