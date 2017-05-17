@@ -1,4 +1,4 @@
-package com.rnsetlife;
+package com.setcrypt;
 
 import android.app.Application;
 

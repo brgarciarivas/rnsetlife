@@ -7,6 +7,7 @@ Libaries Initiated: Lodash, React, React Native, React Native Router Flux, React
 
 ES6 Ready 
 
+
 ## Setup
 
 1. Clone the repo `git clone https://github.com/brgarciarivas/rnsetlife`
@@ -32,7 +33,7 @@ Get familiar with the **rnsetlife** folder structure
     |-- /reducers/          # Redux Reducers
     |-- /scripts/           # Functions for API calls, data formatters, validators, etc
     |-- /styles/                    # All stylesheet constants 
-    |-- /templates           # Folder holding template files for rnsetlife command line tools
+    |-- /templates          # Folder holding template files for rnsetlife command line tools
 
 ```
 
@@ -49,7 +50,44 @@ If this is your first time running anything React Native your going to have to f
     IOS & Android: https://facebook.github.io/react-native/docs/getting-started.html
 
 
+##Changing Project Nmae
 
+We use @junedomingo libary`react-native-rename` to change project files names and extra items in order to allows you to name your projct whatever youd like. 
+
+Folloiwng  `react-native-rename` docs to change project name 
+
+#### Installation
+```
+yarn global add react-native-rename
+or
+npm install react-native-rename -g
+```
+
+Switch to new branch first
+```
+git checkout -b rename-app
+```
+
+#### Usage
+```
+react-native-rename <newName>
+```
+
+#### Example
+```
+react-native-rename "Travel App"
+```
+
+
+
+
+##If youd like to make your new branch master 
+```
+git checkout newbranch
+git merge --strategy=ours master    # keep the content of this branch, but record a merge
+git checkout master
+git merge newbranch             # fast-forward master up to the merge
+```
 
 
 ##Using the CLI tools

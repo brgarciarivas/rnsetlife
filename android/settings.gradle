@@ -1,4 +1,4 @@
-rootProject.name = 'rnsetlife'
+rootProject.name = 'setcrypt'
 
 include ':app'
 include ':react-native-vector-icons'

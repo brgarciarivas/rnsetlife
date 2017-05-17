@@ -1,4 +1,4 @@
-package com.rnsetlife;
+package com.setcrypt;
 
 import com.facebook.react.ReactActivity;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -12,6 +12,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "rnsetlife";
+        return "setcrypt";
     }
 }
